@@ -3,7 +3,7 @@
  * string_toupper - capitalize whole string.
  * @s: capitalized string
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 char *string_toupper(char *s)
 {
@@ -15,7 +15,7 @@ char *string_toupper(char *s)
 		{
 			s[i] = s[i] - 32;
 		}
-		i++;
+	i++;
 	}
 	return (s);
 }
