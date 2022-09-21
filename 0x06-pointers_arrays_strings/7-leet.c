@@ -8,7 +8,7 @@
  */
 char *leet(char *str)
 {
-	int i = o, k;
+	int i = 0, k;
 	char s[] = "aAeEoOtTlL";
 	char s1[] = "4433007711;
 
@@ -18,7 +18,7 @@ char *leet(char *str)
 		{
 			if (s[k] == str[i])
 			{
-				str[i] = s1[k]):
+				str[i] = s1[k];
 			}
 		}
 	}
