@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_array - prints array up to n element
  * @a: array to be read from
